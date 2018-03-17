@@ -1,0 +1,107 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.client-container {    
+    border-radius: 5px;
+    padding: 8px;
+    margin: 6px;
+    min-height: 120px;
+    cursor: pointer;
+}
+
+.client-container:hover {
+    -webkit-box-shadow: 10px 14px 30px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 14px 30px -12px rgba(0,0,0,0.75);
+    box-shadow: 10px 14px 30px -12px rgba(0,0,0,0.75);
+}
+
+.client-male {
+    background-color: #1339AA;
+}
+
+.client-female {
+    background-color: #7a11b2;
+}
+
+
+.client-name {
+    color: white;
+    display: inline;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 4px;
+}
+
+.client-city {
+    color: white;
+    padding-top: 4px;
+}
+
+.client-city:before {
+    content: "City:";
+    padding-right: 4px;
+}
+
+.client-age {
+    color: white;
+    font-size: 16px;
+    float: right;
+    text-transform: uppercase;
+}
+
+.client-age:before {
+    content: "Age:";
+    padding-left: 3px;
+}
+
+
+.client-address {
+    color: white;
+    padding-top: 4px;
+}
+
+.client-address:before {
+    content: "Address:";
+    padding-right: 4px;
+}
+
+.client-picture {
+    display: inline;
+}
+
+.client-picture img {
+    border-radius: 5px;
+}
+
+.modal-info {
+
+}
+
+.modal-info img {
+    float:left;
+    margin-right: 10px;
+    border-radius: 5px;
+}
